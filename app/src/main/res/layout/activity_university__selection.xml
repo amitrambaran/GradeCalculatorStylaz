@@ -18,7 +18,7 @@
             android:animateLayoutChanges="true"
             android:orientation="vertical"
             android:scrollbars="vertical"
-            android:background="#243245">
+            android:background="#11dd8f">
 
             <TextView
                 android:id="@+id/textView1"
@@ -43,7 +43,8 @@
                 android:layout_below="@+id/textView1"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:background="#f44242"
+                android:background="#ffffff"
+                android:textColor="#11dd8f"
                 android:text="Algoma University"
                 android:textSize="20dp"/>
 
@@ -58,8 +59,9 @@
                 android:layout_below="@+id/Algoma"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:background="#f44242"
+                android:background="#ffffff"
                 android:text="Brock University"
+                android:textColor="#11dd8f"
                 android:textSize="20dp"
                 android:textAllCaps="false"/>
 
@@ -74,7 +76,8 @@
                 android:layout_below="@+id/Brock"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:background="#f44242"
+                android:background="#ffffff"
+                android:textColor="#11dd8f"
                 android:text="Carleton University"
                 android:textSize="20dp"/>
 
