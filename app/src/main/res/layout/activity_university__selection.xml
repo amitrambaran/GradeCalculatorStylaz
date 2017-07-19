@@ -15,9 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
+            android:background="#1188df"
             android:orientation="vertical"
-            android:scrollbars="vertical"
-            android:background="#1188df">
+            android:scrollbars="vertical">
 
             <TextView
                 android:id="@+id/textView1"
@@ -33,7 +33,6 @@
                 android:textStyle="bold" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Outside"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -44,13 +43,13 @@
                 android:layout_below="@+id/textView1"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:textColor="#1188df"
                 android:text="I attend school outside of Ontario"
+                android:textAllCaps="false"
+                android:textColor="#1188df"
                 android:textSize="20sp"
-                android:textAllCaps="false"/>
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Algoma"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -61,13 +60,13 @@
                 android:layout_below="@+id/Outside"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:textColor="#1188df"
                 android:text="Algoma University"
+                android:textAllCaps="false"
+                android:textColor="#1188df"
                 android:textSize="20sp"
-                android:textAllCaps="false"/>
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Brock"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -79,12 +78,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Brock University"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
                 android:textSize="20sp"
-                android:textAllCaps="false"/>
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Carleton"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -95,13 +94,13 @@
                 android:layout_below="@+id/Brock"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:textColor="#1188df"
                 android:text="Carleton University"
+                android:textAllCaps="false"
+                android:textColor="#1188df"
                 android:textSize="20sp"
-                android:textAllCaps="false"/>
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Guelph"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -113,12 +112,12 @@
                 android:layout_centerHorizontal="true"
                 android:layout_margin="5dp"
                 android:text="University of Guelph (Guelph-Humber)"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Lakehead"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -130,12 +129,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Lakehead University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Laurentian"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -147,12 +146,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Laurentian University"
-                android:textSize="20sp"
                 android:textAllCaps="false"
-                android:textColor="#1188df"/>
+                android:textColor="#1188df"
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/McMaster"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -164,12 +163,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="McMaster University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Nipissing"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -181,12 +180,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Nipissing University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/OCAD"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -198,12 +197,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="OCAD University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Ottawa"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -215,12 +214,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="University of Ottawa"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Queens"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -232,12 +231,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Queen's University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Ryerson"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -249,12 +248,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Ryerson University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Toronto"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -266,12 +265,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="University of Toronto"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Trent"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -283,12 +282,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Trent University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/UOIT"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -300,12 +299,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="University of Ontario Institute of Technology"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Waterloo"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -317,12 +316,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="University of Waterloo"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Laurier"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -334,12 +333,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="Wilfrid Laurier University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/Windsor"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -351,12 +350,12 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="University of Windsor"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false"/>
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
             <Button
-                android:theme="@style/WhiteButton"
                 android:id="@+id/York"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
@@ -368,9 +367,10 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
                 android:text="York University"
-                android:textSize="20sp"
+                android:textAllCaps="false"
                 android:textColor="#1188df"
-                android:textAllCaps="false" />
+                android:textSize="20sp"
+                android:theme="@style/WhiteButton" />
 
         </RelativeLayout>
     </ScrollView>
