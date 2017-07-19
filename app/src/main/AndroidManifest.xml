@@ -19,7 +19,8 @@
         <activity android:name=".SchoolTypeSelection" />
         <activity android:name="com.exa.MainActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".University_Selection"></activity>
+        <activity android:name=".University_Selection" />
+        <activity android:name=".college_selection"></activity>
     </application>
 
 </manifest>

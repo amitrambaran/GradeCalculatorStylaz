@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1188df">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:scrollbars="vertical"
+            android:background="#1188df">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="What Ontario college do you attend?"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Outside"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/textView1"
+                android:layout_margin="5dp"
+                android:textColor="#1188df"
+                android:text="I attend school outside of Ontario"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Algonquin"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Outside"
+                android:layout_margin="5dp"
+                android:textColor="#1188df"
+                android:text="Algonquin College"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Cambrian"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Algonquin"
+                android:layout_margin="5dp"
+                android:text="Cambrian College"
+                android:textColor="#1188df"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Canadore"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Cambrian"
+                android:layout_margin="5dp"
+                android:textColor="#1188df"
+                android:text="Canadore College"
+                android:textSize="20sp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Centennial"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@id/textView1"
+                android:layout_below="@+id/Canadore"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:text="Centennial College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Conestoga"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Centennial"
+                android:layout_margin="5dp"
+                android:text="Conestoga College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Durham"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Conestoga"
+                android:layout_margin="5dp"
+                android:text="Durham College"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="#1188df"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Fanshawe"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Durham"
+                android:layout_margin="5dp"
+                android:text="Fanshawe College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Flemming"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Fanshawe"
+                android:layout_margin="5dp"
+                android:text="Fleming College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/George_Brown"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Flemming"
+                android:layout_margin="5dp"
+                android:text="George Brown College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Georgian"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/George_Brown"
+                android:layout_margin="5dp"
+                android:text="Georgian College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Humber"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Georgian"
+                android:layout_margin="5dp"
+                android:text="Humber College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Lambton"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Humber"
+                android:layout_margin="5dp"
+                android:text="Lambton College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Loyalist"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Lambton"
+                android:layout_margin="5dp"
+                android:text="Loyalist College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Mohawk"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Loyalist"
+                android:layout_margin="5dp"
+                android:text="Mohawk College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Niagara"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Mohawk"
+                android:layout_margin="5dp"
+                android:text="Niagara College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Northern"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Niagara"
+                android:layout_margin="5dp"
+                android:text="Northern College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/St.Clair"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Northern"
+                android:layout_margin="5dp"
+                android:text="St. Clair College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/St.Lawrence"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/St.Clair"
+                android:layout_margin="5dp"
+                android:text="St. Lawrence College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Sault"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/St.Lawrence"
+                android:layout_margin="5dp"
+                android:text="Sault College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false" />
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Seneca"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Sault"
+                android:layout_margin="5dp"
+                android:text="Seneca College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false" />
+
+            <Button
+                android:theme="@style/WhiteButton"
+                android:id="@+id/Sheridan"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:layout_below="@+id/Seneca"
+                android:layout_margin="5dp"
+                android:text="Sheridan College"
+                android:textSize="20sp"
+                android:textColor="#1188df"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
