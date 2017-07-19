@@ -9,294 +9,302 @@
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true" >
+        android:fillViewport="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_below="@id/textView1"
             android:animateLayoutChanges="true"
             android:orientation="vertical"
             android:scrollbars="vertical"
-            android:layout_below="@id/textView1">
+            android:background="#243245">
 
             <TextView
-                android:layout_margin="5dp"
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView1"
-                android:text="Select your University"
-                android:textAlignment="center"
-                android:textSize="30dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:textColor="#FFFFFF"/>
+                android:layout_margin="5dp"
+                android:text="Select your University"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
 
             <Button
-
-                android:background="#f44242"
                 android:id="@+id/Algoma"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Algoma University"
-                android:layout_below="@+id/textView1"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@+id/Brock"
                 android:layout_alignLeft="@+id/Brock"
-                android:layout_alignStart="@+id/Brock"
                 android:layout_alignRight="@+id/Brock"
-                android:layout_alignEnd="@+id/Brock" />
+                android:layout_alignStart="@+id/Brock"
+                android:layout_below="@+id/textView1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Algoma University"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Brock"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Brock University"
-                android:layout_below="@+id/Algoma"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Carleton"
                 android:layout_alignEnd="@+id/Carleton"
                 android:layout_alignLeft="@+id/Carleton"
-                android:layout_alignStart="@+id/Carleton" />
+                android:layout_alignRight="@+id/Carleton"
+                android:layout_alignStart="@+id/Carleton"
+                android:layout_below="@+id/Algoma"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Brock University"
+                android:textSize="20dp"
+                android:textAllCaps="false"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Carleton"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Carleton University"
-                android:layout_below="@+id/Brock"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@+id/Guelph"
                 android:layout_alignLeft="@+id/Guelph"
-                android:layout_alignStart="@+id/Guelph"
                 android:layout_alignRight="@+id/Guelph"
-                android:layout_alignEnd="@+id/Guelph" />
+                android:layout_alignStart="@+id/Guelph"
+                android:layout_below="@+id/Brock"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Carleton University"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Guelph"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Guelph (Guelph-Humber)"
+                android:layout_alignEnd="@id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignRight="@+id/textView1"
+                android:layout_alignStart="@id/textView1"
                 android:layout_below="@+id/Carleton"
                 android:layout_centerHorizontal="true"
                 android:layout_margin="5dp"
-                android:layout_alignEnd="@id/textView1"
-                android:layout_alignStart="@id/textView1"
-                android:layout_alignLeft="@+id/textView1"
-                android:layout_alignRight="@+id/textView1"/>
+                android:background="#f44242"
+                android:text="University of Guelph (Guelph-Humber)"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Lakehead"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Lakehead University"
-                android:layout_below="@+id/Guelph"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@+id/Guelph"
                 android:layout_alignLeft="@+id/Guelph"
                 android:layout_alignRight="@+id/Guelph"
                 android:layout_alignStart="@+id/Guelph"
-                android:layout_alignEnd="@+id/Guelph" />
+                android:layout_below="@+id/Guelph"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Lakehead University"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Laurentian"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Laurentian University"
-                android:layout_below="@+id/Lakehead"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@+id/Lakehead"
                 android:layout_alignLeft="@+id/Lakehead"
-                android:layout_alignStart="@+id/Lakehead"
                 android:layout_alignRight="@+id/Lakehead"
-                android:layout_alignEnd="@+id/Lakehead" />
+                android:layout_alignStart="@+id/Lakehead"
+                android:layout_below="@+id/Lakehead"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Laurentian University"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/McMaster"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="McMaster University"
-                android:layout_below="@+id/Laurentian"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Laurentian"
                 android:layout_alignEnd="@+id/Laurentian"
                 android:layout_alignLeft="@+id/Laurentian"
-                android:layout_alignStart="@+id/Laurentian" />
+                android:layout_alignRight="@+id/Laurentian"
+                android:layout_alignStart="@+id/Laurentian"
+                android:layout_below="@+id/Laurentian"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="McMaster University"
+                android:textSize="20dp"/>
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Nipissing"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Nipissing University"
-                android:layout_below="@+id/McMaster"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_alignEnd="@+id/McMaster"
                 android:layout_alignLeft="@+id/McMaster"
-                android:layout_alignStart="@+id/McMaster"
                 android:layout_alignRight="@+id/McMaster"
-                android:layout_alignEnd="@+id/McMaster" />
+                android:layout_alignStart="@+id/McMaster"
+                android:layout_below="@+id/McMaster"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Nipissing University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/OCAD"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="OCAD University"
-                android:layout_below="@+id/Nipissing"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Nipissing"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="OCAD University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Ottawa"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Ottawa"
-                android:layout_below="@+id/OCAD"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/OCAD"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="University of Ottawa" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Queens"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Queen's University"
-                android:layout_below="@+id/Ottawa"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Ottawa"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Queen's University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Ryerson"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Ryerson University"
-                android:layout_below="@+id/Queens"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Queens"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Ryerson University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Toronto"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Toronto"
-                android:layout_below="@+id/Ryerson"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Ryerson"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="University of Toronto" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Trent"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Trent University"
-                android:layout_below="@+id/Toronto"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Toronto"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Trent University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/UOIT"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Ontario Institute of Technology"
-                android:layout_below="@+id/Trent"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Trent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="University of Ontario Institute of Technology" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Waterloo"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Waterloo"
-                android:layout_below="@+id/UOIT"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/UOIT"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="University of Waterloo" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Laurier"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="Wilfrid Laurier University"
-                android:layout_below="@+id/Waterloo"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Waterloo"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="Wilfrid Laurier University" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/Windsor"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="University of Windsor"
-                android:layout_below="@+id/Laurier"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Laurier"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="University of Windsor" />
 
             <Button
-                android:background="#f44242"
                 android:id="@+id/York"
                 android:layout_width="wrap_content"
                 android:layout_height="68dp"
-                android:text="York University"
-                android:layout_below="@+id/Windsor"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:layout_alignRight="@+id/Nipissing"
                 android:layout_alignEnd="@+id/Nipissing"
                 android:layout_alignLeft="@+id/Nipissing"
-                android:layout_alignStart="@+id/Nipissing" />
+                android:layout_alignRight="@+id/Nipissing"
+                android:layout_alignStart="@+id/Nipissing"
+                android:layout_below="@+id/Windsor"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#f44242"
+                android:text="York University" />
 
         </RelativeLayout>
     </ScrollView>
