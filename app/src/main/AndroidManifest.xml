@@ -21,7 +21,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".University_Selection" />
         <activity android:name=".college_selection" />
-        <activity android:name=".Git_test"></activity>
+        <activity android:name=".Git_test" />
+        <activity android:name=".Quick_Calculator"></activity>
     </application>
 
 </manifest>
