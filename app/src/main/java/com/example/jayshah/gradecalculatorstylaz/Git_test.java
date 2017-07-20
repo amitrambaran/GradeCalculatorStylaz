@@ -11,5 +11,6 @@ public class Git_test extends AppCompatActivity {
         setContentView(R.layout.activity_git_test);
 
         //YOUR MOM IS YOUR MOM
+        //Your dad is your dad
     }
 }
