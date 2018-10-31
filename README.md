@@ -1,2 +1,2 @@
-# grade-calculator
+# Grade Calculator
 A GPA calculator for Ontario universities.
